@@ -29,8 +29,31 @@
   
 # 대용량 트래픽 처리 공부
 - 시작: 2023. 12
-- 
 
+```
+/AI-Traffic-Handling-Web
+    /01_Basics
+        /Docker
+            /Spring-on-Windows
+            /Django-on-Ubuntu
+        /Kubernetes
+    /02_Scaling
+        /Load-Balancing
+        /Auto-Scaling
+    /03_Data_Management
+        /Caching
+        /Database-Sharding
+        /Database-Replication
+    /04_Content_Delivery
+        /CDN
+    /05_Toy_Projects
+        /Project_1
+        /Project_2
+    /Resources
+        /Notes
+        /References
+
+```  
   
 ```
 /AI-Traffic-Handling-Web
