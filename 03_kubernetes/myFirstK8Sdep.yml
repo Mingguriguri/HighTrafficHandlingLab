@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: myfirstk8skube
-  replicas: 30 # Increase the number of pods (3->10->30)
+  replicas: 3 # Increase the number of pods (3->10->30)
   template:
     metadata:
       labels:
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myfirstk8sex91
-        image: httpd
+        image: nginx # Change to Nginx Container (httpd -> nginx)
         resources:
           limits:
             memory: "128Mi"
