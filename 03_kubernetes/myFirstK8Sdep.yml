@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: myfirstk8skube
-  replicas: 3 # Increase the number of pods (3->10->30)
+  replicas: 5 # Increase the number of pods (3->10->30->5)
   template:
     metadata:
       labels:
