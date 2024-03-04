@@ -1,6 +1,3 @@
-# 파일경로(윈도우) | C:\Users\사용자명\Documents\kube_folder
-# 파일경로(리눅스) | /home/사용자명/kube_folder
-
 apiVersion: v1
 kind: Pod
 metadata:

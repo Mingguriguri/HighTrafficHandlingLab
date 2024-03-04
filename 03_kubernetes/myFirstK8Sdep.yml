@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myFirstK8Sdep
+spec:
+  selector:
+    matchLabels:
+      app: myFirstK8Skube
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: myFirstK8Skube
+    spec:
+      containers:
+      - name: myFirstK8S_ex91
+        image: httpd
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 80
