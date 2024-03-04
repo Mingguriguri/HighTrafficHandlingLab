@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: myFirstK8Spod # pod name
+  name: myfirstk8spod # pod name
   labels:
-    app: myFirstK8Skube
+    app: myfirstk8skube
 spec:
   containers:
-  - name: myFirstK8S_ex91 #container name
+  - name: myfirstk8sex91 #container name
     image: httpd
     resources:
       limits:

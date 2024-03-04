@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myFirstK8Sdep
+  name: myfirstk8sdep
 spec:
   selector:
     matchLabels:
-      app: myFirstK8Skube
+      app: myfirstk8skube
   replicas: 3
   template:
     metadata:
       labels:
-        app: myFirstK8Skube
+        app: myfirstk8skube
     spec:
       containers:
-      - name: myFirstK8S_ex91
+      - name: myfirstk8sex91
         image: httpd
         resources:
           limits:
